@@ -217,7 +217,7 @@ exec_always --no-startup-id ~/screenLayout.sh
 
 exec_always --no-startup-id batsignal -b -c 10 -d 5 -f 90
 
-exec_always --no-startup-id feh --bg-scale ~/Images/Wallpapers/space.jpg
+exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/space.jpg
 
 exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
