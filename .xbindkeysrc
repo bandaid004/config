@@ -66,5 +66,5 @@
    Shift + Escape
 
 # Suspend Systen
-# "betterlockscreen -l && systemctl suspend"
-#   Mod4 + Super_L + Escape
+"systemctl suspend -i"
+   Control + Shift + Escape

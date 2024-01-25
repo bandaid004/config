@@ -1,21 +1,6 @@
 configuration {
-  timeout {
-      action: "kb-cancel";
-      delay:  0;
-  }
-  filebrowser {
-      directories-first: true;
-      sorting-method:    "name";
-  }
+  display-drun: "Applications";
+  display-window: "Windows";
 }
 
-/* Theme */
-entry {
-    placeholder: "Type here";
-}
-
-element {
-    orientation: horizontal;
-    children: [ element-text, element-icon ];
-    spacing: 5px;
-}
+@theme "~/.config/rofi/Monokai.rasi"

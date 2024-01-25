@@ -335,7 +335,7 @@
 
     [play_sound]
         summary = "*"
-        script = ~/.config/dunst/play_beep_sound.sh
+        script = ~/.config/dunst/play_ring.sh
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 
